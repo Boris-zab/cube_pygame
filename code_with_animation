@@ -78,7 +78,7 @@ while True:
         points[i] = (x, y)
         i += 1
         pygame.draw.circle(window, (255, 0, 0), (x, y), 5)
-
+    print('aa;l')
     connect_points(0, 1, points)
     connect_points(0, 3, points)
     connect_points(0, 4, points)

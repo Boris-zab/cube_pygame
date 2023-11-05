@@ -6,7 +6,7 @@ WINDOW_SIZE = 800
 ROTATE_SPEED = 0.02
 window = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))
 clock = pygame.time.Clock()
-
+print('checking my commit in my code')
 projection_matrix = [[1, 0, 0], [0, 1, 0], [0, 0, 0 ]]
 
 cube_points = [n for n in range(8)]
@@ -78,7 +78,6 @@ while True:
         points[i] = (x, y)
         i += 1
         pygame.draw.circle(window, (255, 0, 0), (x, y), 5)
-    print('aa;l')
     connect_points(0, 1, points)
     connect_points(0, 3, points)
     connect_points(0, 4, points)
